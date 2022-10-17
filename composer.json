@@ -15,7 +15,7 @@
   ],
   "require" : {
     "php" : "^5.6|^7.0|^8.0",
-    "guzzlehttp/ringphp" : "^1.0",
+    "guzzlehttp/ringphp" : "dev-feature/php8-support",
     "psr/log" : "^1.0."
   },
   "require-dev" : {
@@ -33,6 +33,12 @@
       "/Tests/"
     ]
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:silverstripeltd/RingPHP.git"
+    }
+  ],
   "bin": [
       "resources/dev/elastic-openapi-codegen.sh"
   ]
