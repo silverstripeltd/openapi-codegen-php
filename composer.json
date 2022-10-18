@@ -35,8 +35,8 @@
   },
   "repositories": [
     {
-      "type": "git",
-      "url": "git@github.com:silverstripeltd/RingPHP.git"
+      "type": "vcs",
+      "url": "https://github.com/silverstripeltd/RingPHP.git"
     }
   ],
   "bin": [
